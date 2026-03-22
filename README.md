@@ -1,7 +1,7 @@
 # 🧠 LLM Engineering Roadmap — Complete Developer Guide
 
 > **Author:** tal7aouy &nbsp;|&nbsp; **Enhanced & Extended Version**  
-> **Last Updated:** 2025 &nbsp;|&nbsp; **Duration:** 24 Weeks (Self-paced)
+> **Last Updated:** 2026 &nbsp;|&nbsp; **Duration:** 24 Weeks (Self-paced)
 
 ---
 
