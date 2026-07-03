@@ -32,7 +32,7 @@ jobs:
           cp -r assets/* docs/assets/ 2>/dev/null || true
           # keep the local index.html reference working
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: docs
       - id: deployment
