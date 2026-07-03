@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" font-family="Inter, -apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="p1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#1f6feb"/></linearGradient>
+    <linearGradient id="p2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3fb950"/><stop offset="1" stop-color="#238636"/></linearGradient>
+    <linearGradient id="p3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d29922"/><stop offset="1" stop-color="#9e6a03"/></linearGradient>
+    <linearGradient id="p4" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#bc8cff"/><stop offset="1" stop-color="#8957e5"/></linearGradient>
+    <linearGradient id="p5" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f778ba"/><stop offset="1" stop-color="#db61a2"/></linearGradient>
+    <linearGradient id="p6" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff7b72"/><stop offset="1" stop-color="#da3633"/></linearGradient>
+    <linearGradient id="new" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#79c0ff"/><stop offset="1" stop-color="#a371f7"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#8b949e"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="820" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#f0f6fc">LLM Engineering Roadmap</text>
+  <text x="600" y="74" text-anchor="middle" font-size="15" fill="#8b949e">Beginner → Production LLM Engineer · 24 weeks · 2026 edition</text>
+
+  <!-- Phase boxes (left column) -->
+  <g>
+    <rect x="40" y="110" width="320" height="90" rx="12" fill="url(#p1)"/>
+    <text x="60" y="140" font-size="18" font-weight="700" fill="#fff">Phase 1 · Foundations</text>
+    <text x="60" y="162" font-size="12" fill="#c9d1d9">Tokens · Embeddings · Transformers</text>
+    <text x="60" y="180" font-size="12" fill="#c9d1d9">Prompt basics · API calls · cost</text>
+
+    <rect x="40" y="220" width="320" height="90" rx="12" fill="url(#p2)"/>
+    <text x="60" y="250" font-size="18" font-weight="700" fill="#fff">Phase 2 · Applied LLM Eng.</text>
+    <text x="60" y="272" font-size="12" fill="#c9d1d9">Prompt patterns · Structured output</text>
+    <text x="60" y="290" font-size="12" fill="#c9d1d9">LangChain · LlamaIndex · FastAPI</text>
+
+    <rect x="40" y="330" width="320" height="90" rx="12" fill="url(#p3)"/>
+    <text x="60" y="360" font-size="18" font-weight="700" fill="#fff">Phase 3 · RAG &amp; Knowledge</text>
+    <text x="60" y="382" font-size="12" fill="#c9d1d9">Chunking · Embedding · Vector DB</text>
+    <text x="60" y="400" font-size="12" fill="#c9d1d9">Retrieval · Reranking · Citation</text>
+
+    <rect x="40" y="440" width="320" height="90" rx="12" fill="url(#p4)"/>
+    <text x="60" y="470" font-size="18" font-weight="700" fill="#fff">Phase 4 · Agents &amp; Automation</text>
+    <text x="60" y="492" font-size="12" fill="#c9d1d9">ReAct · Plan-Execute · Reflexion</text>
+    <text x="60" y="510" font-size="12" fill="#c9d1d9">Tools · Memory · Multi-agent</text>
+
+    <rect x="40" y="550" width="320" height="90" rx="12" fill="url(#p5)"/>
+    <text x="60" y="580" font-size="18" font-weight="700" fill="#fff">Phase 5 · Production</text>
+    <text x="60" y="602" font-size="12" fill="#c9d1d9">Serving · Caching · Cost routing</text>
+    <text x="60" y="620" font-size="12" fill="#c9d1d9">Observability · Multi-tenant SaaS</text>
+
+    <rect x="40" y="660" width="320" height="90" rx="12" fill="url(#p6)"/>
+    <text x="60" y="690" font-size="18" font-weight="700" fill="#fff">Phase 6 · Security &amp; Advanced</text>
+    <text x="60" y="712" font-size="12" fill="#c9d1d9">OWASP LLM10 · Guardrails · Red team</text>
+    <text x="60" y="730" font-size="12" fill="#c9d1d9">Fine-tuning · Compliance</text>
+  </g>
+
+  <!-- Arrows down the left column -->
+  <g stroke="#8b949e" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <line x1="200" y1="200" x2="200" y2="218"/>
+    <line x1="200" y1="310" x2="200" y2="328"/>
+    <line x1="200" y1="420" x2="200" y2="438"/>
+    <line x1="200" y1="530" x2="200" y2="548"/>
+    <line x1="200" y1="640" x2="200" y2="658"/>
+  </g>
+
+  <!-- 2026 deep-dives (right column) -->
+  <text x="820" y="100" text-anchor="middle" font-size="16" font-weight="700" fill="#79c0ff">🆕 2026 Deep-Dives</text>
+  <text x="820" y="120" text-anchor="middle" font-size="11" fill="#8b949e">Study alongside the matching phase</text>
+
+  <g font-size="13" fill="#f0f6fc">
+    <rect x="640" y="140" width="180" height="44" rx="8" fill="url(#new)"/>
+    <text x="730" y="167" text-anchor="middle">MCP</text>
+    <rect x="840" y="140" width="180" height="44" rx="8" fill="url(#new)"/>
+    <text x="930" y="167" text-anchor="middle">A2A Protocol</text>
+
+    <rect x="640" y="200" width="180" height="44" rx="8" fill="url(#new)"/>
+    <text x="730" y="227" text-anchor="middle">Reasoning Models</text>
+    <rect x="840" y="200" width="180" height="44" rx="8" fill="url(#new)"/>
+    <text x="930" y="227" text-anchor="middle">Agentic IDEs</text>
+
+    <rect x="640" y="260" width="180" height="44" rx="8" fill="url(#new)"/>
+    <text x="730" y="287" text-anchor="middle">Computer-Use</text>
+    <rect x="840" y="260" width="180" height="44" rx="8" fill="url(#new)"/>
+    <text x="930" y="287" text-anchor="middle">Context Engineering</text>
+
+    <rect x="640" y="320" width="180" height="44" rx="8" fill="url(#new)"/>
+    <text x="730" y="347" text-anchor="middle">Advanced RAG</text>
+    <rect x="840" y="320" width="180" height="44" rx="8" fill="url(#new)"/>
+    <text x="930" y="347" text-anchor="middle">Memory Systems</text>
+
+    <rect x="640" y="380" width="180" height="44" rx="8" fill="url(#new)"/>
+    <text x="730" y="407" text-anchor="middle">Multimodal</text>
+    <rect x="840" y="380" width="180" height="44" rx="8" fill="url(#new)"/>
+    <text x="930" y="407" text-anchor="middle">Fine-Tuning / RL</text>
+
+    <rect x="640" y="440" width="180" height="44" rx="8" fill="url(#new)"/>
+    <text x="730" y="467" text-anchor="middle">Inference / vLLM</text>
+    <rect x="840" y="440" width="180" height="44" rx="8" fill="url(#new)"/>
+    <text x="930" y="467" text-anchor="middle">Quantization</text>
+  </g>
+
+  <!-- Cross-links (dashed) from phases to deep-dives -->
+  <g stroke="#6e7681" stroke-width="1.2" stroke-dasharray="4 4" fill="none">
+    <line x1="360" y1="375" x2="640" y2="342"/>   <!-- P3 -> Adv RAG -->
+    <line x1="360" y1="485" x2="640" y2="162"/>   <!-- P4 -> MCP -->
+    <line x1="360" y1="595" x2="640" y2="462"/>   <!-- P5 -> Inference -->
+    <line x1="360" y1="705" x2="640" y2="407"/>   <!-- P6 -> Multimodal/FT -->
+  </g>
+
+  <!-- Footer / extras -->
+  <g>
+    <rect x="640" y="540" width="380" height="210" rx="12" fill="#161b22" stroke="#30363d"/>
+    <text x="660" y="568" font-size="15" font-weight="700" fill="#f0f6fc">📦 Repo Extras</text>
+    <text x="660" y="594" font-size="12" fill="#c9d1d9">• docker-compose.yml — Qdrant + pgvector + Redis + Ollama</text>
+    <text x="660" y="614" font-size="12" fill="#c9d1d9">• mcp-servers/ — runnable MCP server examples</text>
+    <text x="660" y="634" font-size="12" fill="#c9d1d9">• projects/ — starter code per phase (RAG chatbot ✅)</text>
+    <text x="660" y="654" font-size="12" fill="#c9d1d9">• notebooks/ — hands-on Jupyter per phase</text>
+    <text x="660" y="674" font-size="12" fill="#c9d1d9">• docs/interview-questions.md — 200+ Q&amp;A</text>
+    <text x="660" y="694" font-size="12" fill="#c9d1d9">• docs/cheatsheets/ — printable one-pagers</text>
+    <text x="660" y="714" font-size="12" fill="#c9d1d9">• docs/case-studies/ — real product architectures</text>
+    <text x="660" y="734" font-size="12" fill="#c9d1d9">• translations/ — community i18n</text>
+  </g>
+
+  <text x="600" y="795" text-anchor="middle" font-size="11" fill="#6e7681">github.com/tal7aouy/LLM-Engineering · MIT · star ⭐ if it helps</text>
+</svg>

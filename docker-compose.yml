@@ -1,0 +1,58 @@
+# Spin up the core data stack for the roadmap's projects:
+#   - Qdrant  : vector DB
+#   - Postgres + pgvector : relational + vectors
+#   - Redis   : cache / rate limiting
+#   - Ollama  : local LLM inference (CPU; pull a model after start)
+#
+# Usage:
+#   docker compose up -d
+#   docker compose ps
+#   docker compose logs -f qdrant
+#   docker compose down        # stop
+#   docker compose down -v     # stop + delete data volumes
+#
+# Endpoints after start:
+#   Qdrant   : http://localhost:6333  (dashboard: http://localhost:6333/dashboard)
+#   Postgres : localhost:5432  (user=llm, pass=llm, db=llm)
+#   Redis    : localhost:6379
+#   Ollama   : http://localhost:11434  (then: docker exec -it ollama ollama pull qwen2.5:7b)
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant-data:/qdrant/storage
+
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: llm
+      POSTGRES_PASSWORD: llm
+      POSTGRES_DB: llm
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+
+volumes:
+  qdrant-data:
+  pg-data:
+  redis-data:
+  ollama-data:

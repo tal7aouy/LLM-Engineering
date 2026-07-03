@@ -1,0 +1,6 @@
+llama-index>=0.11
+llama-index-embeddings-ollama>=0.3
+llama-index-llms-ollama>=0.3
+llama-index-vector-stores-qdrant>=0.4
+qdrant-client>=1.12
+pypdf>=4
