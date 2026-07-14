@@ -7,13 +7,13 @@
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 [![Good First Issue](https://img.shields.io/badge/Good%20First%20Issue-available-success)](https://github.com/tal7aouy/LLM-Engineering/labels/good%20first%20issue)
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/REPLACE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tal7aouy)
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)](./CONTRIBUTING.md)
 [![Last Commit](https://img.shields.io/github/last-commit/tal7aouy/LLM-Engineering)](https://github.com/tal7aouy/LLM-Engineering)
 [![Stars](https://img.shields.io/github/stars/tal7aouy/LLM-Engineering?style=social)](https://github.com/tal7aouy/LLM-Engineering)
 
 > 🌐 **Translations:** [English](./README.md) · _add yours in [`translations/`](./translations)_
-> 💬 **Discord:** [Join the community](https://discord.gg/REPLACE) · 💼 **Hiring?** See [Who's Hiring LLM Engineers](#-whos-hiring-llm-engineers)
+> 💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/tal7aouy) · 🤝 **Hiring?** See [Who's Hiring LLM Engineers](#-whos-hiring-llm-engineers)
 > ⭐ **If this roadmap helps you, give it a star — it helps others discover it.**
 
 <p align="center">
