@@ -21,7 +21,6 @@
 </p>
 
 > 🖼️ High-res version: [`assets/llm-engineering-roadmap.svg`](./assets/llm-engineering-roadmap.svg) ·
-> 🌐 Interactive site: **[tal7aouy.github.io/LLM-Engineering](https://tal7aouy.github.io/LLM-Engineering)**
 
 ---
 
