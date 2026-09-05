@@ -1655,6 +1655,7 @@ Client ──▶ API Gateway (auth, rate limit)
 
 | Community / Newsletter           | Link                                              |
 | -------------------------------- | ------------------------------------------------- |
+| AI Weekly                        | https://aiweekly.co/                              |
 | r/LocalLLaMA (Reddit)            | https://reddit.com/r/LocalLLaMA                   |
 | The Batch (DeepLearning.AI)      | https://deeplearning.ai/the-batch                 |
 | LangChain Discord                | https://discord.gg/langchain                      |
